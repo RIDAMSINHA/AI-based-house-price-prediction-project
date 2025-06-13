@@ -20,6 +20,7 @@ A full-stack machine learning web application to predict house prices based on v
 
 ## 📁 Project Structure
 
+```
 house-price-predictor/
 ├── backend/                  # Flask server, ML model, and AI integration
 │   ├── app.py                # Main Flask application with ML model training and AI logic
@@ -34,7 +35,7 @@ house-price-predictor/
 │   ├── tailwind.config.js    # Tailwind CSS configuration
 │   └── postcss.config.js     # PostCSS configuration for Tailwind
 └── README.md                 # Project documentation
-
+```
 
 ---
 
