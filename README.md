@@ -19,7 +19,6 @@ A full-stack machine learning web application to predict house prices based on v
 ---
 
 ## 📁 Project Structure
-<pre> ```text house-price-predictor/ ├── backend/ # Flask server, ML model, and AI integration │ ├── app.py # Main Flask application with ML model training and AI logic │ ├── .env.example # Example for backend environment variables (e.g., API keys) │ └── requirements.txt # Python dependencies ├── frontend/ # React frontend │ ├── public/ # Public assets │ ├── src/ # React components, styles, and logic │ │ └── App.css # Main CSS file, includes Tailwind directives │ ├── .env.example # Example for frontend environment variables (e.g., API base URL) │ ├── package.json # Frontend dependencies and scripts │ ├── tailwind.config.js # Tailwind CSS configuration │ └── postcss.config.js # PostCSS configuration for Tailwind └── README.md # Project documentation ``` </pre>
 
 house-price-predictor/
 ├── backend/                  # Flask server, ML model, and AI integration
@@ -193,7 +192,7 @@ Make sure you have the following installed on your system:
     ```
     npm start
     ```
-
+    
     # Or if you use yarn: yarn start
     
     The app will open in your browser at:
